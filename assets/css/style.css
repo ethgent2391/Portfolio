@@ -1,0 +1,31 @@
+body{
+    background-image: url("../images/bg.png");
+    background-size: 30%;
+    background-repeat: repeat;
+    
+}
+nav{
+    opacity: 0.7;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+

@@ -1,0 +1,10 @@
+body {
+    background-image: url(../images/topography.png);
+    repeat: repeat;
+    background-size: 500px;
+}
+
+.crystalpics{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,22 @@
+/* comment */
+body {
+    background-image: url("../images/NvL.gif");
+    background-repeat: repeat;
+    background-size: 400px;
+}
+#hero {
+    background-color: rgba(0, 46, 12, 0.843);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(2, 194, 8);
+}
+#timer {
+    background-color: rgba(196, 196, 196, 0.666)
+}
+#winlose {
+    background-color: rgba(0, 46, 12, 0.843);
+    color: rgb(2, 194, 8);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(2, 194, 8);
+}

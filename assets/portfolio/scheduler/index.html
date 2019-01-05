@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/style/style.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="./assets/script/script.js"></script>
+    
+</head>
+<body>
+    <div id="pagetitle" class="col-md-12 bg-dark">
+        <h1 class="text-light text-center">Train schedule</h1>
+        <p class="text-light text-center">Real-time train schedule</p>
+    </div>
+    <div class="jumbotron col-md-12">
+            <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Train Name</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">First Train</th>
+                            <th scope="col">Frequency</th>
+                            <th scope="col">Next Arrival</th>
+                            <th scope="col">Minutes Away</th>
+                            <th scope="col">Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+              
+                    </tbody>
+                </table>
+    </div>
+    <div class="jumbotron col-md-12">
+            <form>
+                    <div class="form-group">
+                      <label for="input_name">Train Name</label>
+                      <input type="name" class="form-control" id="input_name" placeholder="Train Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="input_destination">Destination</label>
+                      <input type="destination" class="form-control" id="input_destination" placeholder="Destination">
+                    </div>
+                    <div class="form-group">
+                        <label for="input_firsttime">First time (HH:mm AM/PM)</label>
+                        <input type="time" class="form-control" id="input_firsttime" placeholder="HH:mm">
+                        </div>
+                    <div class="form-group">
+                        <label for="input_frequency">Frequency</label>
+                        <input class="form-control" id="input_frequency" placeholder="min(s)">
+                        </div>
+                    <button id="submitbutton" type="button" class="btn btn-primary">Submit</button>
+                  </form>
+    </div>
+    <script src="./assets/script/moment.js"></script>
+</body>
+</html>
